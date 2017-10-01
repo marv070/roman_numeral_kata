@@ -39,4 +39,8 @@ class Test_roman <Minitest::Test
     assert_equal("MX", convert(1010))
   end
 
+  def test_2075_return_MMLXXV
+    assert_equal("MMLXXV", convert(2075))
+  end
+
 end
