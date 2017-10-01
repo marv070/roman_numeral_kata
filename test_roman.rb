@@ -15,4 +15,8 @@ class Test_roman <Minitest::Test
     assert_equal("V",convert(5))
   end
 
+  def test_10_returns_X
+    assert_equal("X",convert(10))
+  end
+
 end

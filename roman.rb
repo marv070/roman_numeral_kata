@@ -1,7 +1,4 @@
 def convert(num)
-  if num == 5
-    "V"
-  else
-    "I"
-  end
+  hash = {10=>"X", 5=>"V", 1=>"I"}
+    hash[num]
 end
