@@ -43,4 +43,8 @@ class Test_roman <Minitest::Test
     assert_equal("MMLXXV", convert(2075))
   end
 
+  def test_913_returns_CMXIII
+    assert_equal("CMXIII", convert(913))
+  end
+
 end
