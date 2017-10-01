@@ -19,4 +19,8 @@ class Test_roman <Minitest::Test
     assert_equal("X",convert(10))
   end
 
+  def test_13_returns_XIII
+    assert_equal"XIII",convert(13)
+  end
+
 end
