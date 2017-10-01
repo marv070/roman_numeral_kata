@@ -51,4 +51,16 @@ class Test_roman <Minitest::Test
     assert_equal("CDIII", convert(403))
   end
 
+  def test_90_returns_xc
+    assert_equal("XC", convert(90))
+  end
+
+  def test_47_returns_XLVII
+    assert_equal("XLVII", convert(47))
+  end
+
+  def test_9_returns_IX
+    assert_equal("IX", convert(9))
+  end
+
 end
