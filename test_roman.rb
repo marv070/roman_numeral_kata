@@ -67,4 +67,16 @@ class Test_roman <Minitest::Test
     assert_equal("XXIV", convert(24))
   end
 
+  def test_1989_returns_MCMLXXXIX
+    assert_equal("MCMLXXXIX",convert(1989))
+  end
+
+  def test_1066_returns_MLXVI
+    assert_equal("MLXVI", convert(1066))
+  end
+
+  def test_negative_num_returns_invalid_number
+    assert_equal("Please enter number greater than zero",convert(-100))
+  end
+
 end
