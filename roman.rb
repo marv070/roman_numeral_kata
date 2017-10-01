@@ -1,3 +1,7 @@
 def convert(num)
-  "I"
+  if num == 5
+    "V"
+  else
+    "I"
+  end
 end

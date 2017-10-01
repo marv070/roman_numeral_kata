@@ -11,4 +11,8 @@ class Test_roman <Minitest::Test
     assert_equal("I",convert(1))
   end
 
+  def test_5_returns_V
+    assert_equal("V",convert(5))
+  end
+
 end
