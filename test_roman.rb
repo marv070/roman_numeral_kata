@@ -47,4 +47,8 @@ class Test_roman <Minitest::Test
     assert_equal("CMXIII", convert(913))
   end
 
+  def test_403_returns_CDIII
+    assert_equal("CDIII", convert(403))
+  end
+
 end
