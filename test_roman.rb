@@ -63,4 +63,8 @@ class Test_roman <Minitest::Test
     assert_equal("IX", convert(9))
   end
 
+  def test_24_returns_XXIV
+    assert_equal("XXIV", convert(24))
+  end
+
 end
