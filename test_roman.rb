@@ -23,4 +23,20 @@ class Test_roman <Minitest::Test
     assert_equal"XIII",convert(13)
   end
 
+  def test_32_returns_XXXII
+    assert_equal("XXXII",convert(32))
+  end
+
+  def test_25_returns_XXV
+    assert_equal("XXV", convert(25))
+  end
+
+  def test_550_returns_DL
+    assert_equal("DL", convert(550))
+  end
+
+  def test_1010_returns_MX
+    assert_equal("MX", convert(1010))
+  end
+
 end
